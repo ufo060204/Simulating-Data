@@ -2,2703 +2,1854 @@
   "clinics": [
     {
       "id": 1,
-      "name": "康健診所1",
-      "director": {
-        "name": "張醫生1",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "悅康牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 1658,
+        "details": {
+          "5star": 92.5,
+          "4star": 5.2,
+          "3star": 1.5,
+          "2star": 0.7,
+          "1star": 0.1
+        }
+      },
+      "contact": {
+        "phone": "02-2727-6872",
+        "address": "台北市信義區松山路304號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0374,121.5645",
+        "location": {
+          "lat": 25.0374,
+          "lng": 121.5645
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "林建宏",
+          "title": "院長",
+          "photo": "/images/doctors/lin-chien-hong.jpg",
+          "specialties": [
+            "一般牙科",
+            "植牙",
+            "全口重建"
+          ],
+          "experience": "20年",
+          "education": [
+            "台大牙醫系",
+            "美國南加州大學植牙專科"
+          ],
+          "certifications": [
+            "植牙專科醫師",
+            "牙體復形專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "陳美玲",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chen-mei-ling.jpg",
+            "specialties": [
+              "兒童牙科",
+              "牙齒矯正"
+            ],
+            "experience": "12年",
+            "education": [
+              "陽明牙醫系",
+              "台大醫院牙科部住院醫師"
+            ],
+            "certifications": [
+              "兒童牙科專科醫師"
+            ]
+          },
+          {
+            "name": "王志明",
+            "title": "主治醫師",
+            "photo": "/images/doctors/wang-chih-ming.jpg",
+            "specialties": [
+              "牙周病",
+              "人工植牙"
+            ],
+            "experience": "15年",
+            "education": [
+              "北醫牙醫系"
+            ],
+            "certifications": [
+              "牙周病專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "一般牙科",
+        "兒童牙科",
+        "植牙中心",
+        "牙齒矯正",
+        "牙周病科",
+        "根管治療"
+      ],
+      "services": [
         {
-          "name": "李醫生1A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "一般牙科",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
           ]
         },
         {
-          "name": "王醫生1B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "人工植牙",
+            "3D導航植牙",
+            "全瓷冠",
+            "隱形牙套矯正"
+          ]
+        },
+        {
+          "category": "美容牙科",
+          "items": [
+            "牙齒美白",
+            "陶瓷貼片",
+            "全瓷冠"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路1段100號",
-      "phone": "02-2000-1000",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 20000,
+          "max": 35000,
+          "note": "首次諮詢優惠價500元"
+        },
+        "orthodontics": {
+          "min": 150000,
+          "max": 300000,
+          "note": "包含完整矯正療程及後續追蹤"
+        },
+        "implant": {
+          "min": 210000,
+          "max": 350000,
+          "note": "使用瑞士ITI植體系統"
+        },
+        "dentures": {
+          "min": 23000,
+          "max": 50000
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
+        "獨立消毒室",
+        "3D立體掃描儀",
+        "數位全景X光機",
+        "治療椅側螢幕",
+        "無障礙空間"
+      ],
+      "media": {
+        "clinicPhotos": [
+          {
+            "url": "/images/clinics/yue-kang/exterior.jpg",
+            "description": "診所外觀",
+            "type": "exterior"
+          },
+          {
+            "url": "/images/clinics/yue-kang/waiting-room.jpg",
+            "description": "候診區",
+            "type": "interior"
+          }
+        ],
+        "equipmentPhotos": [
+          {
+            "url": "/images/clinics/yue-kang/3d-scanner.jpg",
+            "description": "3D口掃儀",
+            "type": "equipment"
+          }
+        ]
+      },
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "富邦人壽"
+        ],
+        "languages": [
+          "中文",
+          "英文",
+          "台語"
+        ]
+      },
+      "articles": [
+        {
+          "id": 1,
+          "title": "植牙新趨勢：3D導航精準植牙",
+          "content": "3D導航植牙的優勢...",
+          "publishDate": "2024-01-15",
+          "category": "衛教文章"
+        }
       ]
     },
     {
       "id": 2,
-      "name": "康健診所2",
-      "director": {
-        "name": "張醫生2",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "微笑美學牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 892,
+        "details": {
+          "5star": 94.0,
+          "4star": 4.5,
+          "3star": 1.0,
+          "2star": 0.4,
+          "1star": 0.1
+        }
+      },
+      "contact": {
+        "phone": "02-2781-5566",
+        "address": "台北市大安區復興南路一段168號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0396,121.5432",
+        "location": {
+          "lat": 25.0396,
+          "lng": 121.5432
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "09:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "張雅婷",
+          "title": "院長",
+          "photo": "/images/doctors/chang-ya-ting.jpg",
+          "specialties": [
+            "美容牙科",
+            "數位牙科",
+            "隱形矯正"
+          ],
+          "experience": "18年",
+          "education": [
+            "台北醫學大學牙醫系",
+            "美國紐約大學美容牙科進修"
+          ],
+          "certifications": [
+            "美容牙科專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "李承翰",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lee-cheng-han.jpg",
+            "specialties": [
+              "牙齒矯正",
+              "隱形矯正"
+            ],
+            "experience": "10年",
+            "certifications": [
+              "矯正專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "美容牙科",
+        "數位牙科",
+        "隱形矯正",
+        "一般牙科",
+        "牙齒美白"
+      ],
+      "services": [
         {
-          "name": "李醫生2A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "美容牙科",
+          "items": [
+            "瓷牙貼片",
+            "全瓷冠",
+            "牙齒美白",
+            "微笑設計"
           ]
         },
         {
-          "name": "王醫生2B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "矯正治療",
+          "items": [
+            "隱形牙套",
+            "陶瓷矯正",
+            "快速矯正"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路2段101號",
-      "phone": "02-2001-1001",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 40000
+        },
+        "orthodontics": {
+          "min": 180000,
+          "max": 350000,
+          "note": "含隱形牙套全套療程"
+        },
+        "cosmetic": {
+          "min": 150000,
+          "max": 400000,
+          "note": "視療程項目而定"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "數位掃描系統",
+        "微笑設計軟體",
+        "精密瓷牙研磨設備",
+        "植牙導航系統"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "自費特約",
+          "國際醫療"
+        ]
+      }
     },
     {
       "id": 3,
-      "name": "康健診所3",
-      "director": {
-        "name": "張醫生3",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "康兒牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 756,
+        "details": {
+          "5star": 85.0,
+          "4star": 10.0,
+          "3star": 3.5,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2711-3322",
+        "address": "台北市松山區南京東路五段223號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0512,121.5678",
+        "location": {
+          "lat": 25.0512,
+          "lng": 121.5678
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "wednesday": "closed",
+        "thursday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "18:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "黃志明",
+          "title": "院長",
+          "photo": "/images/doctors/huang-chih-ming.jpg",
+          "specialties": [
+            "兒童牙科",
+            "預防牙醫學"
+          ],
+          "experience": "15年",
+          "education": [
+            "中山醫學大學牙醫系",
+            "美國波士頓兒童牙科進修"
+          ],
+          "certifications": [
+            "兒童牙科專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林小萍",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-hsiao-ping.jpg",
+            "specialties": [
+              "兒童牙齒矯正",
+              "兒童齒列矯正"
+            ],
+            "experience": "8年",
+            "certifications": [
+              "齒列矯正專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "兒童牙科",
+        "預防牙醫",
+        "兒童矯正",
+        "兒童植牙",
+        "特殊需求兒童牙科"
+      ],
+      "services": [
         {
-          "name": "李醫生3A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "兒童牙科",
+          "items": [
+            "乳牙治療",
+            "兒童蛀牙預防",
+            "窩溝封填",
+            "兒童專用麻醉"
           ]
         },
         {
-          "name": "王醫生3B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "矯正治療",
+          "items": [
+            "早期矯正",
+            "兒童齒列矯正",
+            "功能性矯正器"
+          ]
+        },
+        {
+          "category": "特殊照護",
+          "items": [
+            "特殊需求兒童照護",
+            "行為處理",
+            "笑氣麻醉"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路3段102號",
-      "phone": "02-2002-1002",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 15000,
+          "max": 30000,
+          "note": "兒童首診優惠價300元"
+        },
+        "orthodontics": {
+          "min": 120000,
+          "max": 250000,
+          "note": "早期矯正費用較低"
+        },
+        "preventive": {
+          "min": 1000,
+          "max": 5000,
+          "note": "包含塗氟、窩溝封填等"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "兒童遊戲區",
+        "卡通主題診療室",
+        "兒童專用設備",
+        "親子諮詢室"
+      ],
+      "media": {
+        "clinicPhotos": [
+          {
+            "url": "/images/clinics/kang-er/playroom.jpg",
+            "description": "兒童遊戲區",
+            "type": "interior"
+          }
+        ]
+      },
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "兒童牙科補助"
+        ],
+        "specialFeatures": [
+          "無障礙空間",
+          "育嬰室"
+        ]
+      }
     },
     {
       "id": 4,
-      "name": "康健診所4",
-      "director": {
-        "name": "張醫生4",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "恆美牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 1234,
+        "details": {
+          "5star": 88.5,
+          "4star": 8.2,
+          "3star": 2.5,
+          "2star": 0.5,
+          "1star": 0.3
+        }
+      },
+      "contact": {
+        "phone": "02-2762-9988",
+        "address": "台北市信義區忠孝東路五段68號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0412,121.5723",
+        "location": {
+          "lat": 25.0412,
+          "lng": 121.5723
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "09:00",
+          "end": "16:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "陳宗明",
+          "title": "院長",
+          "photo": "/images/doctors/chen-tsung-ming.jpg",
+          "specialties": [
+            "牙周病",
+            "人工植牙",
+            "數位牙科"
+          ],
+          "experience": "22年",
+          "education": [
+            "台北醫學大學牙醫系",
+            "日本大阪大學植牙專科"
+          ],
+          "certifications": [
+            "植牙專科醫師",
+            "牙周病專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林美玲",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-mei-ling.jpg",
+            "specialties": [
+              "一般牙科",
+              "數位補綴"
+            ],
+            "experience": "8年",
+            "certifications": [
+              "數位牙科認證醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "牙周病科",
+        "植牙中心",
+        "數位牙科",
+        "一般牙科",
+        "人工植牙"
+      ],
+      "services": [
         {
-          "name": "李醫生4A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "植牙服務",
+          "items": [
+            "單顆植牙",
+            "全口重建",
+            "導航植牙",
+            "植骨手術"
           ]
         },
         {
-          "name": "王醫生4B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "牙周治療",
+          "items": [
+            "牙周手術",
+            "牙齦美容",
+            "深層洗牙"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路4段103號",
-      "phone": "02-2003-1003",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 22000,
+          "max": 38000,
+          "note": "含3D口掃與治療規劃"
+        },
+        "implant": {
+          "min": 220000,
+          "max": 380000,
+          "note": "使用瑞士Straumann系統"
+        },
+        "periodontal": {
+          "min": 30000,
+          "max": 150000,
+          "note": "依嚴重程度評估"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "數位植牙導航系統",
+        "3D口掃系統",
+        "高壓消毒設備",
+        "獨立手術室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "南山人壽"
+        ],
+        "languages": [
+          "中文",
+          "英文",
+          "日文"
+        ]
+      }
     },
     {
       "id": 5,
-      "name": "康健診所5",
-      "director": {
-        "name": "張醫生5",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "全心牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 867,
+        "details": {
+          "5star": 93.0,
+          "4star": 5.5,
+          "3star": 1.2,
+          "2star": 0.2,
+          "1star": 0.1
+        }
+      },
+      "contact": {
+        "phone": "02-2516-7890",
+        "address": "台北市中山區中山北路二段159號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0578,121.5225",
+        "location": {
+          "lat": 25.0578,
+          "lng": 121.5225
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "王建民",
+          "title": "院長",
+          "photo": "/images/doctors/wang-chien-min.jpg",
+          "specialties": [
+            "一般牙科",
+            "根管治療",
+            "家庭牙醫"
+          ],
+          "experience": "16年",
+          "education": [
+            "陽明大學牙醫系"
+          ],
+          "certifications": [
+            "根管治療專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "張雅琪",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chang-ya-chi.jpg",
+            "specialties": [
+              "兒童牙科",
+              "預防保健"
+            ],
+            "experience": "7年"
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "一般牙科",
+        "根管治療",
+        "兒童牙科",
+        "預防保健",
+        "家庭牙醫"
+      ],
+      "services": [
         {
-          "name": "李醫生5A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "假牙製作"
           ]
         },
         {
-          "name": "王醫生5B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "根管治療",
+            "牙周治療",
+            "兒童塗氟"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路5段104號",
-      "phone": "02-2004-1004",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 18000,
+          "max": 32000
+        },
+        "rootcanal": {
+          "min": 15000,
+          "max": 45000,
+          "note": "依牙齒情況評估"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "數位X光設備",
+        "根管顯微鏡",
+        "兒童遊戲區",
+        "無障礙空間"
+      ],
+      "features": {
+        "parking": false,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "團體醫療"
+        ]
+      }
     },
     {
       "id": 6,
-      "name": "康健診所6",
-      "director": {
-        "name": "張醫生6",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "精準植牙中心",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 945,
+        "details": {
+          "5star": 84.0,
+          "4star": 12.0,
+          "3star": 3.0,
+          "2star": 0.8,
+          "1star": 0.2
+        }
+      },
+      "contact": {
+        "phone": "02-2789-5566",
+        "address": "台北市內湖區成功路三段178號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0823,121.5934",
+        "location": {
+          "lat": 25.0823,
+          "lng": 121.5934
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "18:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "許明德",
+          "title": "院長",
+          "photo": "/images/doctors/hsu-ming-te.jpg",
+          "specialties": [
+            "植牙手術",
+            "3D導航植牙",
+            "全口重建"
+          ],
+          "experience": "25年",
+          "education": [
+            "台大牙醫系",
+            "德國植牙中心進修"
+          ],
+          "certifications": [
+            "植牙專科醫師",
+            "3D導航植牙認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "楊志豪",
+            "title": "主治醫師",
+            "photo": "/images/doctors/yang-chih-hao.jpg",
+            "specialties": [
+              "人工植牙",
+              "牙周手術"
+            ],
+            "experience": "12年",
+            "certifications": [
+              "植牙專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "植牙中心",
+        "3D導航中心",
+        "牙周病科",
+        "全口重建",
+        "一般牙科"
+      ],
+      "services": [
         {
-          "name": "李醫生6A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "植牙服務",
+          "items": [
+            "3D導航植牙",
+            "即拔即種",
+            "全口植牙",
+            "人工植骨"
           ]
         },
         {
-          "name": "王醫生6B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "All-on-4",
+            "All-on-6",
+            "植牙補骨"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路6段105號",
-      "phone": "02-2005-1005",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 45000,
+          "note": "含3D導航規劃"
+        },
+        "implant": {
+          "min": 250000,
+          "max": 450000,
+          "note": "使用德國CAMLOG系統"
+        },
+        "allon4": {
+          "min": 450000,
+          "max": 750000,
+          "note": "含暫時性假牙"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "3D導航設備",
+        "德製植牙機具",
+        "無菌手術室",
+        "高壓消毒中心"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "自費特約"
+        ],
+        "languages": [
+          "中文",
+          "英文",
+          "德文"
+        ]
+      }
     },
     {
       "id": 7,
-      "name": "康健診所7",
-      "director": {
-        "name": "張醫生7",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "樂齒美學牙醫",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 1432,
+        "details": {
+          "5star": 91.5,
+          "4star": 6.2,
+          "3star": 1.8,
+          "2star": 0.3,
+          "1star": 0.2
+        }
+      },
+      "contact": {
+        "phone": "02-2731-6699",
+        "address": "台北市大安區敦化南路二段216號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0284,121.5486",
+        "location": {
+          "lat": 25.0284,
+          "lng": 121.5486
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "吳雅琳",
+          "title": "院長",
+          "photo": "/images/doctors/wu-ya-lin.jpg",
+          "specialties": [
+            "美容牙科",
+            "數位全瓷冠",
+            "貼片美容"
+          ],
+          "experience": "18年",
+          "education": [
+            "臺大牙醫系",
+            "美國紐約大學美容牙科專科"
+          ],
+          "certifications": [
+            "美容牙科專科醫師",
+            "數位牙科認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "李建宏",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lee-chien-hong.jpg",
+            "specialties": [
+              "隱形矯正",
+              "數位牙科"
+            ],
+            "experience": "10年",
+            "certifications": [
+              "隱形矯正認證醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "美容牙科",
+        "數位牙科",
+        "隱形矯正",
+        "一般牙科",
+        "牙齒美白"
+      ],
+      "services": [
         {
-          "name": "李醫生7A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "美容療程",
+          "items": [
+            "全瓷冠",
+            "瓷牙貼片",
+            "牙齒美白",
+            "微笑設計"
           ]
         },
         {
-          "name": "王醫生7B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "矯正治療",
+          "items": [
+            "隱形矯正",
+            "快速矯正",
+            "陶瓷矯正"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路7段106號",
-      "phone": "02-2006-1006",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 45000,
+          "note": "含3D口掃與微笑設計"
+        },
+        "veneers": {
+          "min": 45000,
+          "max": 85000,
+          "note": "德國進口瓷材"
+        },
+        "orthodontics": {
+          "min": 180000,
+          "max": 350000,
+          "note": "含完整矯正療程"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "德國數位掃描儀",
+        "3D瓷牙研磨機",
+        "微笑設計軟體",
+        "精密陶瓷實驗室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "自費特約"
+        ],
+        "languages": [
+          "中文",
+          "英文"
+        ]
+      }
     },
     {
       "id": 8,
-      "name": "康健診所8",
-      "director": {
-        "name": "張醫生8",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "雙和牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 987,
+        "details": {
+          "5star": 86.0,
+          "4star": 9.5,
+          "3star": 3.2,
+          "2star": 0.8,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2926-8876",
+        "address": "台北市松山區南京東路四段133號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0522,121.5554",
+        "location": {
+          "lat": 25.0522,
+          "lng": 121.5554
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "陳志豪",
+          "title": "院長",
+          "photo": "/images/doctors/chen-chih-hao.jpg",
+          "specialties": [
+            "一般牙科",
+            "牙周病",
+            "根管治療"
+          ],
+          "experience": "20年",
+          "education": [
+            "中國醫藥大學牙醫系"
+          ],
+          "certifications": [
+            "牙周病專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林佳穎",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-chia-ying.jpg",
+            "specialties": [
+              "一般牙科",
+              "兒童牙科"
+            ],
+            "experience": "8年"
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "一般牙科",
+        "牙周病科",
+        "根管治療",
+        "兒童牙科"
+      ],
+      "services": [
         {
-          "name": "李醫生8A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "牙周治療"
           ]
         },
         {
-          "name": "王醫生8B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "根管治療",
+            "牙周手術",
+            "兒童塗氟"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路8段107號",
-      "phone": "02-2007-1007",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 16000,
+          "max": 30000
+        },
+        "periodontal": {
+          "min": 20000,
+          "max": 60000,
+          "note": "依嚴重程度評估"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "數位X光設備",
+        "根管治療儀器",
+        "兒童診療椅",
+        "消毒中心"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "富邦人壽"
+        ]
+      }
     },
     {
       "id": 9,
-      "name": "康健診所9",
-      "director": {
-        "name": "張醫生9",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "時代牙醫",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 1123,
+        "details": {
+          "5star": 89.0,
+          "4star": 7.5,
+          "3star": 2.5,
+          "2star": 0.7,
+          "1star": 0.3
+        }
+      },
+      "contact": {
+        "phone": "02-2756-3322",
+        "address": "台北市內湖區內湖路一段246號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0826,121.5671",
+        "location": {
+          "lat": 25.0826,
+          "lng": 121.5671
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "21:30"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "09:30",
+          "end": "18:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "張世明",
+          "title": "院長",
+          "photo": "/images/doctors/chang-shih-ming.jpg",
+          "specialties": [
+            "植牙",
+            "全口重建",
+            "顳顎關節治療"
+          ],
+          "experience": "23年",
+          "education": [
+            "陽明大學牙醫系",
+            "美國波士頓大學植牙專科"
+          ],
+          "certifications": [
+            "植牙專科醫師",
+            "顳顎關節專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "王俊傑",
+            "title": "主治醫師",
+            "photo": "/images/doctors/wang-chun-chieh.jpg",
+            "specialties": [
+              "一般牙科",
+              "植牙"
+            ],
+            "experience": "11年",
+            "certifications": [
+              "植牙專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "植牙中心",
+        "顳顎關節科",
+        "全口重建",
+        "一般牙科"
+      ],
+      "services": [
         {
-          "name": "李醫生9A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "植牙服務",
+          "items": [
+            "單顆植牙",
+            "多顆植牙",
+            "全口植牙",
+            "導航植牙"
           ]
         },
         {
-          "name": "王醫生9B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "顳顎關節治療",
+            "咬合重建",
+            "夜磨牙治療"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路9段108號",
-      "phone": "02-2008-1008",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 22000,
+          "max": 40000
+        },
+        "implant": {
+          "min": 230000,
+          "max": 400000,
+          "note": "使用瑞士ITI系統"
+        },
+        "tmj": {
+          "min": 30000,
+          "max": 150000,
+          "note": "含客製化護套"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "3D導航儀器",
+        "顳顎關節檢測儀",
+        "電腦斷層掃描",
+        "無菌手術室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國際醫療"
+        ],
+        "languages": [
+          "中文",
+          "英文",
+          "日文"
+        ]
+      }
     },
     {
       "id": 10,
-      "name": "康健診所10",
-      "director": {
-        "name": "張醫生10",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "康德牙醫聯合診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 1556,
+        "details": {
+          "5star": 88.0,
+          "4star": 8.5,
+          "3star": 2.5,
+          "2star": 0.7,
+          "1star": 0.3
+        }
+      },
+      "contact": {
+        "phone": "02-2758-9966",
+        "address": "台北市大安區忠孝東路四段182號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0416,121.5548",
+        "location": {
+          "lat": 25.0416,
+          "lng": 121.5548
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "謝明德",
+          "title": "院長",
+          "photo": "/images/doctors/hsieh-ming-te.jpg",
+          "specialties": [
+            "植牙",
+            "全口重建",
+            "數位牙科"
+          ],
+          "experience": "25年",
+          "education": [
+            "台北醫學大學牙醫系",
+            "美國哈佛大學牙醫進修"
+          ],
+          "certifications": [
+            "植牙專科醫師",
+            "數位牙科認證醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林佳玲",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-chia-ling.jpg",
+            "specialties": [
+              "牙周病",
+              "一般牙科"
+            ],
+            "experience": "12年",
+            "certifications": [
+              "牙周病專科醫師"
+            ]
+          },
+          {
+            "name": "張育誠",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chang-yu-cheng.jpg",
+            "specialties": [
+              "兒童牙科",
+              "矯正"
+            ],
+            "experience": "8年",
+            "certifications": [
+              "矯正專科醫師"
+            ]
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "植牙中心",
+        "數位牙科",
+        "牙周病科",
+        "兒童牙科",
+        "矯正中心"
+      ],
+      "services": [
         {
-          "name": "李醫生10A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "植牙服務",
+          "items": [
+            "數位導航植牙",
+            "人工植牙",
+            "All-on-4",
+            "補骨手術"
           ]
         },
         {
-          "name": "王醫生10B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "一般治療",
+          "items": [
+            "根管治療",
+            "牙周治療",
+            "蛀牙填補"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "隱形矯正",
+            "兒童矯正",
+            "數位掃描"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路10段109號",
-      "phone": "02-2009-1009",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 45000,
+          "note": "含3D掃描評估"
+        },
+        "implant": {
+          "min": 250000,
+          "max": 450000,
+          "note": "使用瑞士Straumann系統"
+        },
+        "orthodontics": {
+          "min": 150000,
+          "max": 280000,
+          "note": "含完整矯正療程"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "數位口掃儀",
+        "3D導航系統",
+        "無菌手術室",
+        "兒童專屬診間"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "富邦人壽"
+        ],
+        "languages": [
+          "中文",
+          "英文",
+          "台語"
+        ]
+      }
     },
     {
       "id": 11,
-      "name": "康健診所11",
-      "director": {
-        "name": "張醫生11",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "安心美齒中心",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 982,
+        "details": {
+          "5star": 92.0,
+          "4star": 6.0,
+          "3star": 1.5,
+          "2star": 0.3,
+          "1star": 0.2
+        }
+      },
+      "contact": {
+        "phone": "02-2711-5533",
+        "address": "台北市松山區民生東路三段128號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0578,121.5445",
+        "location": {
+          "lat": 25.0578,
+          "lng": 121.5445
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "wednesday": "closed",
+        "thursday": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "林美玉",
+          "title": "院長",
+          "photo": "/images/doctors/lin-mei-yu.jpg",
+          "specialties": [
+            "美容牙科",
+            "貼片美容",
+            "牙齒美白"
+          ],
+          "experience": "15年",
+          "education": [
+            "陽明大學牙醫系",
+            "美國紐約大學美容牙科進修"
+          ],
+          "certifications": [
+            "美容牙科專科醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "王雅婷",
+            "title": "主治醫師",
+            "photo": "/images/doctors/wang-ya-ting.jpg",
+            "specialties": [
+              "一般牙科",
+              "牙齒美白"
+            ],
+            "experience": "7年"
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "美容牙科",
+        "一般牙科",
+        "牙齒美白中心",
+        "貼片中心"
+      ],
+      "services": [
         {
-          "name": "李醫生11A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "美容服務",
+          "items": [
+            "瓷牙貼片",
+            "全瓷冠",
+            "雷射美白",
+            "微笑設計"
           ]
         },
         {
-          "name": "王醫生11B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "牙周治療"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路11段110號",
-      "phone": "02-2010-1010",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
+      "pricing": {
+        "consultation": {
+          "min": 20000,
+          "max": 35000
+        },
+        "veneers": {
+          "min": 40000,
+          "max": 80000,
+          "note": "使用德國進口瓷材"
+        },
+        "whitening": {
+          "min": 15000,
+          "max": 35000,
+          "note": "含居家美白套組"
+        }
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+        "雷射美白儀器",
+        "數位掃描系統",
+        "瓷牙研磨設備",
+        "診間液晶電視"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "自費特約"
+        ]
+      }
     },
     {
       "id": 12,
-      "name": "康健診所12",
-      "director": {
-        "name": "張醫生12",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+      "name": "仁和牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 845,
+        "details": {
+          "5star": 85.0,
+          "4star": 9.5,
+          "3star": 4.0,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2632-8855",
+        "address": "台北市士林區中正路318號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0934,121.5265",
+        "location": {
+          "lat": 25.0934,
+          "lng": 121.5265
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "20:00"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "20:00"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "陳志偉",
+          "title": "院長",
+          "photo": "/images/doctors/chen-chih-wei.jpg",
+          "specialties": [
+            "一般牙科",
+            "家庭牙醫",
+            "兒童牙科"
+          ],
+          "experience": "18年",
+          "education": [
+            "中國醫藥大學牙醫系"
+          ],
+          "certifications": [
+            "家庭牙醫學會認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "李雅琪",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lee-ya-chi.jpg",
+            "specialties": [
+              "一般牙科",
+              "根管治療"
+            ],
+            "experience": "6年"
+          }
         ]
       },
-      "doctors": [
+      "departments": [
+        "一般牙科",
+        "家庭牙醫",
+        "兒童牙科",
+        "根管治療"
+      ],
+      "services": [
         {
-          "name": "李醫生12A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
           ]
         },
         {
-          "name": "王醫生12B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
+          "category": "特殊治療",
+          "items": [
+            "根管治療",
+            "兒童塗氟",
+            "牙周治療"
           ]
         }
       ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路12段111號",
-      "phone": "02-2011-1011",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "康健診所13",
-      "director": {
-        "name": "張醫生13",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生13A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
+      "pricing": {
+        "consultation": {
+          "min": 15000,
+          "max": 28000
         },
-        {
-          "name": "王醫生13B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
+        "rootcanal": {
+          "min": 12000,
+          "max": 35000,
+          "note": "依牙齒情況評估"
         }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路13段112號",
-      "phone": "02-2012-1012",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
       },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
       "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "康健診所14",
-      "director": {
-        "name": "張醫生14",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
+        "數位X光設備",
+        "兒童遊戲區",
+        "無障礙設施",
+        "消毒中心"
+      ],
+      "features": {
+        "parking": false,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽"
         ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生14A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生14B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路14段113號",
-      "phone": "02-2013-1013",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 15,
-      "name": "康健診所15",
-      "director": {
-        "name": "張醫生15",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生15A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生15B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路15段114號",
-      "phone": "02-2014-1014",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "康健診所16",
-      "director": {
-        "name": "張醫生16",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生16A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生16B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路16段115號",
-      "phone": "02-2015-1015",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "康健診所17",
-      "director": {
-        "name": "張醫生17",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生17A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生17B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路17段116號",
-      "phone": "02-2016-1016",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "康健診所18",
-      "director": {
-        "name": "張醫生18",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生18A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生18B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路18段117號",
-      "phone": "02-2017-1017",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "康健診所19",
-      "director": {
-        "name": "張醫生19",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生19A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生19B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路19段118號",
-      "phone": "02-2018-1018",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "康健診所20",
-      "director": {
-        "name": "張醫生20",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生20A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生20B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路20段119號",
-      "phone": "02-2019-1019",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "康健診所21",
-      "director": {
-        "name": "張醫生21",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生21A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生21B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路21段120號",
-      "phone": "02-2020-1020",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 22,
-      "name": "康健診所22",
-      "director": {
-        "name": "張醫生22",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生22A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生22B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路22段121號",
-      "phone": "02-2021-1021",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "康健診所23",
-      "director": {
-        "name": "張醫生23",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生23A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生23B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路23段122號",
-      "phone": "02-2022-1022",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "康健診所24",
-      "director": {
-        "name": "張醫生24",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生24A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生24B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路24段123號",
-      "phone": "02-2023-1023",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "康健診所25",
-      "director": {
-        "name": "張醫生25",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生25A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生25B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路25段124號",
-      "phone": "02-2024-1024",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 26,
-      "name": "康健診所26",
-      "director": {
-        "name": "張醫生26",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生26A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生26B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路26段125號",
-      "phone": "02-2025-1025",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 27,
-      "name": "康健診所27",
-      "director": {
-        "name": "張醫生27",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生27A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生27B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路27段126號",
-      "phone": "02-2026-1026",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 28,
-      "name": "康健診所28",
-      "director": {
-        "name": "張醫生28",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生28A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生28B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路28段127號",
-      "phone": "02-2027-1027",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "康健診所29",
-      "director": {
-        "name": "張醫生29",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生29A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生29B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路29段128號",
-      "phone": "02-2028-1028",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "康健診所30",
-      "director": {
-        "name": "張醫生30",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生30A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生30B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路30段129號",
-      "phone": "02-2029-1029",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "康健診所31",
-      "director": {
-        "name": "張醫生31",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生31A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生31B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路31段130號",
-      "phone": "02-2030-1030",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "康健診所32",
-      "director": {
-        "name": "張醫生32",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生32A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生32B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路32段131號",
-      "phone": "02-2031-1031",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 33,
-      "name": "康健診所33",
-      "director": {
-        "name": "張醫生33",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生33A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生33B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路33段132號",
-      "phone": "02-2032-1032",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 34,
-      "name": "康健診所34",
-      "director": {
-        "name": "張醫生34",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生34A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生34B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路34段133號",
-      "phone": "02-2033-1033",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 35,
-      "name": "康健診所35",
-      "director": {
-        "name": "張醫生35",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生35A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生35B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路35段134號",
-      "phone": "02-2034-1034",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 36,
-      "name": "康健診所36",
-      "director": {
-        "name": "張醫生36",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生36A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生36B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路36段135號",
-      "phone": "02-2035-1035",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 37,
-      "name": "康健診所37",
-      "director": {
-        "name": "張醫生37",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生37A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生37B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路37段136號",
-      "phone": "02-2036-1036",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 38,
-      "name": "康健診所38",
-      "director": {
-        "name": "張醫生38",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生38A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生38B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路38段137號",
-      "phone": "02-2037-1037",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "康健診所39",
-      "director": {
-        "name": "張醫生39",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生39A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生39B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路39段138號",
-      "phone": "02-2038-1038",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 40,
-      "name": "康健診所40",
-      "director": {
-        "name": "張醫生40",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生40A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生40B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路40段139號",
-      "phone": "02-2039-1039",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 41,
-      "name": "康健診所41",
-      "director": {
-        "name": "張醫生41",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生41A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生41B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路41段140號",
-      "phone": "02-2040-1040",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "康健診所42",
-      "director": {
-        "name": "張醫生42",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生42A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生42B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路42段141號",
-      "phone": "02-2041-1041",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 43,
-      "name": "康健診所43",
-      "director": {
-        "name": "張醫生43",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生43A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生43B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路43段142號",
-      "phone": "02-2042-1042",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 44,
-      "name": "康健診所44",
-      "director": {
-        "name": "張醫生44",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生44A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生44B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路44段143號",
-      "phone": "02-2043-1043",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "康健診所45",
-      "director": {
-        "name": "張醫生45",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生45A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生45B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路45段144號",
-      "phone": "02-2044-1044",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "康健診所46",
-      "director": {
-        "name": "張醫生46",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生46A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生46B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路46段145號",
-      "phone": "02-2045-1045",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 47,
-      "name": "康健診所47",
-      "director": {
-        "name": "張醫生47",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生47A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生47B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路47段146號",
-      "phone": "02-2046-1046",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 48,
-      "name": "康健診所48",
-      "director": {
-        "name": "張醫生48",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生48A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生48B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路48段147號",
-      "phone": "02-2047-1047",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "康健診所49",
-      "director": {
-        "name": "張醫生49",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生49A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生49B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路49段148號",
-      "phone": "02-2048-1048",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
-    },
-    {
-      "id": 50,
-      "name": "康健診所50",
-      "director": {
-        "name": "張醫生50",
-        "title": "院長",
-        "specialties": [
-          "家醫科",
-          "內科"
-        ]
-      },
-      "doctors": [
-        {
-          "name": "李醫生50A",
-          "title": "主治醫師",
-          "specialties": [
-            "小兒科",
-            "過敏免疫科"
-          ]
-        },
-        {
-          "name": "王醫生50B",
-          "title": "主治醫師",
-          "specialties": [
-            "骨科",
-            "復健科"
-          ]
-        }
-      ],
-      "specialties": [
-        "家醫科",
-        "內科",
-        "小兒科",
-        "骨科",
-        "復健科"
-      ],
-      "address": "台北市信義區信義路50段149號",
-      "phone": "02-2049-1049",
-      "openingHours": {
-        "weekday": "09:00-21:00",
-        "weekend": "09:00-17:00"
-      },
-      "services": [
-        "一般門診",
-        "預防注射",
-        "健康檢查",
-        "外傷處理"
-      ],
-      "facilities": [
-        "X光室",
-        "檢驗室",
-        "復健室"
-      ]
+      }
     }
   ]
 }
