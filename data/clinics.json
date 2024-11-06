@@ -1850,6 +1850,1671 @@
           "國泰人壽"
         ]
       }
+    },
+    {
+      "id": 13,
+      "name": "康德牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 923,
+        "details": {
+          "5star": 87.0,
+          "4star": 8.5,
+          "3star": 3.0,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2781-5566",
+        "address": "台北市信義區松仁路98號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0356,121.5678",
+        "location": {
+          "lat": 25.0356,
+          "lng": 121.5678
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "王建明",
+          "title": "院長",
+          "photo": "/images/doctors/wang-jian-ming.jpg",
+          "specialties": [
+            "一般牙科",
+            "植牙",
+            "數位牙科"
+          ],
+          "experience": "20年",
+          "education": [
+            "台北醫學大學牙醫系",
+            "美國哈佛大學牙醫進修"
+          ],
+          "certifications": [
+            "植牙專科醫師認證",
+            "數位牙科認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "張美玲",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chang-mei-ling.jpg",
+            "specialties": [
+              "一般牙科",
+              "牙齒美白",
+              "隱形矯正"
+            ],
+            "experience": "8年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "植牙科",
+        "數位牙科",
+        "美容牙科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "植牙",
+            "全瓷冠",
+            "數位掃描",
+            "隱形矯正"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 18000,
+          "max": 32000
+        },
+        "implant": {
+          "min": 60000,
+          "max": 150000,
+          "note": "依植牙材質與數量評估"
+        }
+      },
+      "facilities": [
+        "3D口掃儀",
+        "手術無影燈",
+        "消毒中心",
+        "VIP休息室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "富邦人壽"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "雙和牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.6,
+        "reviewCount": 567,
+        "details": {
+          "5star": 82.0,
+          "4star": 10.5,
+          "3star": 5.0,
+          "2star": 1.5,
+          "1star": 1.0
+        }
+      },
+      "contact": {
+        "phone": "02-2923-7788",
+        "address": "新北市中和區景平路156號",
+        "googleMapUrl": "https://maps.google.com/?q=24.9934,121.4956",
+        "location": {
+          "lat": 24.9934,
+          "lng": 121.4956
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "16:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "林書豪",
+          "title": "院長",
+          "photo": "/images/doctors/lin-shu-hao.jpg",
+          "specialties": [
+            "一般牙科",
+            "兒童牙科",
+            "牙周病治療"
+          ],
+          "experience": "15年",
+          "education": [
+            "陽明大學牙醫系"
+          ],
+          "certifications": [
+            "牙周病專科醫師認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "黃靜怡",
+            "title": "主治醫師",
+            "photo": "/images/doctors/huang-jing-yi.jpg",
+            "specialties": [
+              "一般牙科",
+              "兒童牙科"
+            ],
+            "experience": "5年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "兒童牙科",
+        "牙周病科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "牙周病治療",
+            "兒童塗氟",
+            "乳牙治療"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 12000,
+          "max": 25000
+        },
+        "periodontal": {
+          "min": 8000,
+          "max": 30000,
+          "note": "依牙周病程度評估"
+        }
+      },
+      "facilities": [
+        "數位X光設備",
+        "兒童遊戲區",
+        "無障礙設施"
+      ],
+      "features": {
+        "parking": false,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "南山人壽"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "微笑美學牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 1023,
+        "details": {
+          "5star": 90.0,
+          "4star": 7.5,
+          "3star": 2.0,
+          "2star": 0.3,
+          "1star": 0.2
+        }
+      },
+      "contact": {
+        "phone": "02-2756-9999",
+        "address": "台北市大安區忠孝東路四段218號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0419,121.5489",
+        "location": {
+          "lat": 25.0419,
+          "lng": 121.5489
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "tuesday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "wednesday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "thursday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "friday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "楊晨光",
+          "title": "院長",
+          "photo": "/images/doctors/yang-chen-guang.jpg",
+          "specialties": [
+            "一般牙科",
+            "美容牙科",
+            "隱形矯正"
+          ],
+          "experience": "22年",
+          "education": [
+            "高雄醫學大學牙醫系",
+            "美國紐約大學美容牙科進修"
+          ],
+          "certifications": [
+            "美容牙科專科醫師認證",
+            "隱形矯正認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "陳薇安",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chen-wei-an.jpg",
+            "specialties": [
+              "一般牙科",
+              "牙齒美白",
+              "貼片美容"
+            ],
+            "experience": "10年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "美容牙科",
+        "矯正牙科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "全瓷貼片",
+            "雷射美白",
+            "隱形矯正",
+            "微笑設計"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 20000,
+          "max": 35000
+        },
+        "veneer": {
+          "min": 45000,
+          "max": 120000,
+          "note": "依貼片材質與數量評估"
+        }
+      },
+      "facilities": [
+        "數位掃描系統",
+        "雷射美白設備",
+        "VIP診療室",
+        "專業攝影棚"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "國泰人壽",
+          "富邦人壽",
+          "安聯人壽"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "全家牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.5,
+        "reviewCount": 432,
+        "details": {
+          "5star": 79.0,
+          "4star": 12.0,
+          "3star": 6.5,
+          "2star": 1.5,
+          "1star": 1.0
+        }
+      },
+      "contact": {
+        "phone": "02-8522-6677",
+        "address": "新北市板橋區文化路二段126號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0134,121.4589",
+        "location": {
+          "lat": 25.0134,
+          "lng": 121.4589
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "吳家豪",
+          "title": "院長",
+          "photo": "/images/doctors/wu-jia-hao.jpg",
+          "specialties": [
+            "一般牙科",
+            "家庭牙醫",
+            "兒童牙科"
+          ],
+          "experience": "16年",
+          "education": [
+            "中山醫學大學牙醫系"
+          ],
+          "certifications": [
+            "家庭牙醫學會認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林美君",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-mei-jun.jpg",
+            "specialties": [
+              "一般牙科",
+              "兒童牙科"
+            ],
+            "experience": "7年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "家庭牙醫",
+        "兒童牙科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "兒童塗氟",
+            "乳牙治療",
+            "智齒處理"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 10000,
+          "max": 22000
+        },
+        "pediatric": {
+          "min": 6000,
+          "max": 25000,
+          "note": "依兒童年齡及治療項目評估"
+        }
+      },
+      "facilities": [
+        "兒童遊戲區",
+        "育嬰室",
+        "無障礙設施",
+        "停車場"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "新光人壽",
+          "南山人壽"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "陽光植牙中心",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 876,
+        "details": {
+          "5star": 86.0,
+          "4star": 9.0,
+          "3star": 3.5,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2762-8899",
+        "address": "台北市松山區南京東路五段223號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0521,121.5678",
+        "location": {
+          "lat": 25.0521,
+          "lng": 121.5678
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:30",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:30",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:30",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:30",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:30",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "陳明德",
+          "title": "院長",
+          "photo": "/images/doctors/chen-ming-de.jpg",
+          "specialties": [
+            "植牙",
+            "數位植牙",
+            "人工植牙"
+          ],
+          "experience": "25年",
+          "education": [
+            "台大醫學院牙醫系",
+            "美國加州大學植牙專科"
+          ],
+          "certifications": [
+            "植牙專科醫師認證",
+            "數位導航植牙認證",
+            "全瓷冠重建認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "王俊傑",
+            "title": "主治醫師",
+            "photo": "/images/doctors/wang-jun-jie.jpg",
+            "specialties": [
+              "植牙",
+              "人工植牙",
+              "全口重建"
+            ],
+            "experience": "15年"
+          }
+        ]
+      },
+      "departments": [
+        "植牙中心",
+        "數位植牙",
+        "全口重建"
+      ],
+      "services": [
+        {
+          "category": "植牙服務",
+          "items": [
+            "單顆植牙",
+            "多顆植牙",
+            "全口植牙",
+            "導航植牙"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "人工植牙",
+            "植骨手術",
+            "全瓷冠重建",
+            "數位導航"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 40000
+        },
+        "implant": {
+          "min": 80000,
+          "max": 200000,
+          "note": "依植牙數量及材質評估"
+        }
+      },
+      "facilities": [
+        "3D導航系統",
+        "無菌手術室",
+        "數位X光機",
+        "恢復休息室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "國泰人壽",
+          "富邦人壽",
+          "新光人壽"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "安心牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 654,
+        "details": {
+          "5star": 84.0,
+          "4star": 10.0,
+          "3star": 4.5,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2933-5566",
+        "address": "新北市永和區永和路二段93號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0078,121.5156",
+        "location": {
+          "lat": 25.0078,
+          "lng": 121.5156
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "20:30"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "20:30"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "20:30"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "20:30"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "20:30"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "17:30"
+        },
+        "sunday": {
+          "start": "09:30",
+          "end": "17:30"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "張安心",
+          "title": "院長",
+          "photo": "/images/doctors/zhang-an-xin.jpg",
+          "specialties": [
+            "一般牙科",
+            "根管治療",
+            "牙周病治療"
+          ],
+          "experience": "18年",
+          "education": [
+            "台北醫學大學牙醫系",
+            "日本東京醫科大學進修"
+          ],
+          "certifications": [
+            "根管治療專科醫師認證",
+            "牙周病專科醫師認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "李承恩",
+            "title": "主治醫師",
+            "photo": "/images/doctors/li-cheng-en.jpg",
+            "specialties": [
+              "一般牙科",
+              "牙周病治療"
+            ],
+            "experience": "9年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "根管治療",
+        "牙周病科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "根管治療",
+            "牙周病治療",
+            "齒槽骨手術",
+            "牙齦美容"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 15000,
+          "max": 28000
+        },
+        "rootcanal": {
+          "min": 15000,
+          "max": 45000,
+          "note": "依患牙情況評估"
+        }
+      },
+      "facilities": [
+        "根管顯微鏡",
+        "數位X光設備",
+        "消毒中心",
+        "會診室"
+      ],
+      "features": {
+        "parking": false,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "南山人壽"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "恆美牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 788,
+        "details": {
+          "5star": 85.0,
+          "4star": 9.0,
+          "3star": 4.5,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2711-9988",
+        "address": "台北市松山區民生東路四段112號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0578,121.5556",
+        "location": {
+          "lat": 25.0578,
+          "lng": 121.5556
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "廖美玲",
+          "title": "院長",
+          "photo": "/images/doctors/liao-mei-ling.jpg",
+          "specialties": [
+            "一般牙科",
+            "美容牙科",
+            "數位牙科"
+          ],
+          "experience": "20年",
+          "education": [
+            "陽明大學牙醫系",
+            "美國波士頓大學美容牙科進修"
+          ],
+          "certifications": [
+            "美容牙科專科醫師認證",
+            "數位牙科認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "周承翰",
+            "title": "主治醫師",
+            "photo": "/images/doctors/zhou-cheng-han.jpg",
+            "specialties": [
+              "一般牙科",
+              "牙齒美白",
+              "全瓷貼片"
+            ],
+            "experience": "8年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "美容牙科",
+        "數位牙科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "全瓷貼片",
+            "數位掃描",
+            "牙齒美白",
+            "微笑設計"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 18000,
+          "max": 35000
+        },
+        "cosmetic": {
+          "min": 50000,
+          "max": 150000,
+          "note": "依療程項目及材質評估"
+        }
+      },
+      "facilities": [
+        "數位掃描儀",
+        "美白雷射",
+        "專業攝影棚",
+        "諮詢室"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "國泰人壽",
+          "富邦人壽"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "德威牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.6,
+        "reviewCount": 567,
+        "details": {
+          "5star": 81.0,
+          "4star": 11.0,
+          "3star": 6.0,
+          "2star": 1.5,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2952-3366",
+        "address": "新北市新莊區中正路289號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0362,121.4524",
+        "location": {
+          "lat": 25.0362,
+          "lng": 121.4524
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "tuesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "wednesday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "thursday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "friday": {
+          "start": "09:00",
+          "end": "20:00"
+        },
+        "saturday": {
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "魏大維",
+          "title": "院長",
+          "photo": "/images/doctors/wei-da-wei.jpg",
+          "specialties": [
+            "一般牙科",
+            "矯正牙科",
+            "兒童牙科"
+          ],
+          "experience": "17年",
+          "education": [
+            "中國醫藥大學牙醫系",
+            "美國密西根大學矯正專科"
+          ],
+          "certifications": [
+            "矯正專科醫師認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "許雅婷",
+            "title": "主治醫師",
+            "photo": "/images/doctors/xu-ya-ting.jpg",
+            "specialties": [
+              "一般牙科",
+              "兒童牙科"
+            ],
+            "experience": "6年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "矯正牙科",
+        "兒童牙科"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "傳統矯正",
+            "隱形矯正",
+            "兒童矯正",
+            "預防性矯正"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 15000,
+          "max": 28000
+        },
+        "orthodontics": {
+          "min": 85000,
+          "max": 180000,
+          "note": "依矯正方式及療程評估"
+        }
+      },
+      "facilities": [
+        "X光檢查室",
+        "兒童遊戲區",
+        "諮詢室",
+        "矯正示範室"
+      ],
+      "features": {
+        "parking": false,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "新光人壽"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "尚美牙醫聯合診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 892,
+        "details": {
+          "5star": 88.0,
+          "4star": 8.5,
+          "3star": 2.5,
+          "2star": 0.7,
+          "1star": 0.3
+        }
+      },
+      "contact": {
+        "phone": "02-2772-5577",
+        "address": "台北市大安區敦化南路二段216號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0289,121.5486",
+        "location": {
+          "lat": 25.0289,
+          "lng": 121.5486
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "tuesday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "wednesday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "thursday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "friday": {
+          "start": "11:00",
+          "end": "21:30"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "蔡尚文",
+          "title": "院長",
+          "photo": "/images/doctors/cai-shang-wen.jpg",
+          "specialties": [
+            "美容牙科",
+            "植牙",
+            "全口重建"
+          ],
+          "experience": "23年",
+          "education": [
+            "台大醫學院牙醫系",
+            "美國南加州大學美容牙科專科"
+          ],
+          "certifications": [
+            "美容牙科專科醫師認證",
+            "植牙專科醫師認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "林雅琪",
+            "title": "主治醫師",
+            "photo": "/images/doctors/lin-ya-qi.jpg",
+            "specialties": [
+              "美容牙科",
+              "數位牙科"
+            ],
+            "experience": "12年"
+          }
+        ]
+      },
+      "departments": [
+        "美容牙科",
+        "植牙中心",
+        "數位牙科"
+      ],
+      "services": [
+        {
+          "category": "美容治療",
+          "items": [
+            "全瓷貼片",
+            "瓷牙冠",
+            "牙齒美白",
+            "微笑設計"
+          ]
+        },
+        {
+          "category": "植牙服務",
+          "items": [
+            "單顆植牙",
+            "全口植牙",
+            "導航植牙",
+            "人工植牙"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 40000
+        },
+        "cosmetic": {
+          "min": 60000,
+          "max": 200000,
+          "note": "依療程項目及材質評估"
+        }
+      },
+      "facilities": [
+        "3D導航系統",
+        "數位掃描儀",
+        "VIP診療室",
+        "手術無影燈"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "國泰人壽",
+          "富邦人壽",
+          "安聯人壽"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "健康牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.7,
+        "reviewCount": 634,
+        "details": {
+          "5star": 83.0,
+          "4star": 10.5,
+          "3star": 5.0,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-8991-2233",
+        "address": "新北市三峽區民生街156號",
+        "googleMapUrl": "https://maps.google.com/?q=24.9342,121.3689",
+        "location": {
+          "lat": 24.9342,
+          "lng": 121.3689
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "09:30",
+          "end": "19:30"
+        },
+        "tuesday": {
+          "start": "09:30",
+          "end": "19:30"
+        },
+        "wednesday": {
+          "start": "09:30",
+          "end": "19:30"
+        },
+        "thursday": {
+          "start": "09:30",
+          "end": "19:30"
+        },
+        "friday": {
+          "start": "09:30",
+          "end": "19:30"
+        },
+        "saturday": {
+          "start": "09:30",
+          "end": "17:00"
+        },
+        "sunday": "closed"
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "周健康",
+          "title": "院長",
+          "photo": "/images/doctors/zhou-jian-kang.jpg",
+          "specialties": [
+            "一般牙科",
+            "牙周病治療",
+            "家庭牙醫"
+          ],
+          "experience": "19年",
+          "education": [
+            "高雄醫學大學牙醫系"
+          ],
+          "certifications": [
+            "牙周病專科醫師認證",
+            "家庭牙醫學會認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "陳威廷",
+            "title": "主治醫師",
+            "photo": "/images/doctors/chen-wei-ting.jpg",
+            "specialties": [
+              "一般牙科",
+              "根管治療"
+            ],
+            "experience": "7年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "牙周病科",
+        "家庭牙醫"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "牙周病治療",
+            "根管治療",
+            "假牙製作",
+            "齒列矯正諮詢"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 13000,
+          "max": 25000
+        },
+        "periodontal": {
+          "min": 8000,
+          "max": 35000,
+          "note": "依牙周病程度評估"
+        }
+      },
+      "facilities": [
+        "數位X光設備",
+        "無障礙設施",
+        "消毒中心",
+        "停車場"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": true,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "富邦人壽"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "樂齒牙醫診所",
+      "type": "dental",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 745,
+        "details": {
+          "5star": 85.0,
+          "4star": 9.5,
+          "3star": 4.0,
+          "2star": 1.0,
+          "1star": 0.5
+        }
+      },
+      "contact": {
+        "phone": "02-2835-6677",
+        "address": "台北市士林區中正路458號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0934,121.5265",
+        "location": {
+          "lat": 25.0934,
+          "lng": 121.5265
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "10:00",
+          "end": "20:30"
+        },
+        "tuesday": {
+          "start": "10:00",
+          "end": "20:30"
+        },
+        "wednesday": {
+          "start": "10:00",
+          "end": "20:30"
+        },
+        "thursday": {
+          "start": "10:00",
+          "end": "20:30"
+        },
+        "friday": {
+          "start": "10:00",
+          "end": "20:30"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "林正義",
+          "title": "院長",
+          "photo": "/images/doctors/lin-zheng-yi.jpg",
+          "specialties": [
+            "一般牙科",
+            "矯正牙科",
+            "隱適美認證"
+          ],
+          "experience": "21年",
+          "education": [
+            "陽明大學牙醫系",
+            "美國加州大學矯正專科進修"
+          ],
+          "certifications": [
+            "矯正專科醫師認證",
+            "隱適美鑽石級認證醫師"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "王雅玲",
+            "title": "主治醫師",
+            "photo": "/images/doctors/wang-ya-ling.jpg",
+            "specialties": [
+              "一般牙科",
+              "兒童矯正"
+            ],
+            "experience": "9年"
+          }
+        ]
+      },
+      "departments": [
+        "一般牙科",
+        "矯正牙科",
+        "兒童矯正"
+      ],
+      "services": [
+        {
+          "category": "一般治療",
+          "items": [
+            "補牙",
+            "洗牙",
+            "拔牙",
+            "定期檢查"
+          ]
+        },
+        {
+          "category": "特殊治療",
+          "items": [
+            "隱適美矯正",
+            "傳統矯正",
+            "兒童矯正",
+            "透明牙套"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 16000,
+          "max": 30000
+        },
+        "orthodontics": {
+          "min": 90000,
+          "max": 180000,
+          "note": "依矯正方式及療程評估"
+        }
+      },
+      "facilities": [
+        "3D口掃儀",
+        "矯正諮詢室",
+        "消毒中心",
+        "兒童遊戲區"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "健保特約",
+          "國泰人壽",
+          "南山人壽"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "永恆美學牙醫",
+      "type": "dental",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 892,
+        "details": {
+          "5star": 89.0,
+          "4star": 8.0,
+          "3star": 2.5,
+          "2star": 0.3,
+          "1star": 0.2
+        }
+      },
+      "contact": {
+        "phone": "02-2731-8899",
+        "address": "台北市信義區松仁路156號",
+        "googleMapUrl": "https://maps.google.com/?q=25.0356,121.5678",
+        "location": {
+          "lat": 25.0356,
+          "lng": 121.5678
+        }
+      },
+      "operatingHours": {
+        "monday": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "tuesday": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "wednesday": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "thursday": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "friday": {
+          "start": "11:00",
+          "end": "21:00"
+        },
+        "saturday": {
+          "start": "10:00",
+          "end": "18:00"
+        },
+        "sunday": {
+          "start": "10:00",
+          "end": "17:00"
+        }
+      },
+      "medicalTeam": {
+        "director": {
+          "name": "黃永昌",
+          "title": "院長",
+          "photo": "/images/doctors/huang-yong-chang.jpg",
+          "specialties": [
+            "美容牙科",
+            "全瓷美學",
+            "數位牙科"
+          ],
+          "experience": "24年",
+          "education": [
+            "台大醫學院牙醫系",
+            "美國紐約大學美容牙科專科"
+          ],
+          "certifications": [
+            "美容牙科專科醫師認證",
+            "全瓷貼片認證",
+            "數位牙科認證"
+          ]
+        },
+        "doctors": [
+          {
+            "name": "張雅惠",
+            "title": "主治醫師",
+            "photo": "/images/doctors/zhang-ya-hui.jpg",
+            "specialties": [
+              "美容牙科",
+              "牙齒美白",
+              "全瓷貼片"
+            ],
+            "experience": "11年"
+          }
+        ]
+      },
+      "departments": [
+        "美容牙科",
+        "數位牙科",
+        "一般牙科"
+      ],
+      "services": [
+        {
+          "category": "美容治療",
+          "items": [
+            "全瓷貼片",
+            "雷射美白",
+            "全瓷冠",
+            "微笑曲線設計"
+          ]
+        },
+        {
+          "category": "數位服務",
+          "items": [
+            "數位掃描",
+            "3D列印臨時假牙",
+            "數位完整口掃",
+            "電腦深度分析"
+          ]
+        }
+      ],
+      "pricing": {
+        "consultation": {
+          "min": 25000,
+          "max": 45000
+        },
+        "veneer": {
+          "min": 55000,
+          "max": 150000,
+          "note": "依材質及數量評估"
+        }
+      },
+      "facilities": [
+        "數位掃描中心",
+        "3D列印室",
+        "VIP診療室",
+        "專業攝影棚"
+      ],
+      "features": {
+        "parking": true,
+        "accessible": true,
+        "emergencyService": false,
+        "insurance": [
+          "國泰人壽",
+          "富邦人壽",
+          "安聯人壽"
+        ]
+      }
     }
   ]
 }
