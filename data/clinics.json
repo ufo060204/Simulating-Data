@@ -174,19 +174,19 @@
       "media": {
         "clinicPhotos": [
           {
-            "url": "/images/clinics/yue-kang/exterior.jpg",
+            "url": "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "description": "診所外觀",
             "type": "exterior"
           },
           {
-            "url": "/images/clinics/yue-kang/waiting-room.jpg",
+            "url": "https://plus.unsplash.com/premium_photo-1682130157004-057c137d96d5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "description": "候診區",
             "type": "interior"
           }
         ],
         "equipmentPhotos": [
           {
-            "url": "/images/clinics/yue-kang/3d-scanner.jpg",
+            "url": "https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "description": "3D口掃儀",
             "type": "equipment"
           }
